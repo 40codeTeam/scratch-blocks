@@ -1087,7 +1087,8 @@ Blockly.Css.CONTENT = [
     'list-style: none;',
     'margin: 0;',
      /* 28px on the left for icon or checkbox; 7em on the right for shortcut. */
-    'padding: 10px 15px 10px 15px;',
+    'padding: 5px 15px 5px 15px!important;',
+    'transition: background-color 0.15s ease-out;',
     'white-space: nowrap;',
   '}',
 
